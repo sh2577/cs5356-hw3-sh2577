@@ -50,7 +50,6 @@ img {
     border-radius: 10px;
     filter: grayscale(100%) brightness(120%);
     transition: filter 0.5s ease-in-out;
-    margin-bottom: 25px;
 }
 
 img:hover {
@@ -73,7 +72,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-p {
+.frame2 p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.frame1 p {
+    margin-top: 20px;
     font-size: 1.2rem;
     max-width: 600px;
     margin-bottom: 20px;
@@ -110,7 +116,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-button {
+.frame2 button {
    background-color: #eb4961;
    color: white;
    padding: 10px 15px;
@@ -121,7 +127,7 @@ button {
    transition: background 0.3s ease-in-out; 
 }
 
-button:hover {
+.frame2 button:hover {
     background-color: #f3c4cb;
 }
 
@@ -152,3 +158,23 @@ button:hover {
     }
 }
 
+
+.hidden {
+    display: none;
+}
+
+.frame1 button {
+    margin-top: 25px;
+    background-color: #eb4961;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out; 
+ }
+ 
+.frame1 button:hover {
+     background-color: #f3c4cb;
+ }

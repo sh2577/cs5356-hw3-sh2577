@@ -33,3 +33,12 @@ document.getElementById("fetch-fact").addEventListener("click", function() {
 });
 
 
+document.getElementById("reveal-btn1").addEventListener("click", function() {
+    let hiddenText = document.getElementById("hidden-text1");
+    hiddenText.style.display = "block"; // Show the paragraph
+});
+
+document.getElementById("reveal-btn2").addEventListener("click", function() {
+    let hiddenText = document.getElementById("hidden-text2");
+    hiddenText.style.display = "block"; // Show the paragraph
+});
